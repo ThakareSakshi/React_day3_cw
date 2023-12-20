@@ -120,6 +120,9 @@
   
 
 }
+.menu{
+  display: none;
+}
 .GetInTouch .info{
   
   position:absolute;
@@ -245,6 +248,18 @@
     width: 90%;
    }
    .header-logo-name{
-    font-size: 25px;
+    font-size: 20px;
+   }
+   .menu{
+    display: inline-block;
+    margin-left:5px;
+   }
+   .Button{
+    font-size: 12px;
+    margin: 2px;
+    padding: 10px;
+   }
+   .header{
+    justify-content: space-between;
    }
 }

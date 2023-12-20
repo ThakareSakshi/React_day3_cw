@@ -13,7 +13,8 @@ return(
 
             </ul>
         </div>
-        <Button bgColor="blue" color="white" title="Get Started"></Button>
+       
+       <div>  <Button bgColor="blue" color="white" title="Get Started"></Button><i class="fa-solid fa-bars menu"></i></div>
 
     </header>
 )
