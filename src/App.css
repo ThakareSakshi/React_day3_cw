@@ -51,7 +51,7 @@
   background-image: url("https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
   background-repeat: no-repeat;
   background-size: cover;
-  height:90vh;
+  height:600px;
   width:100%;
   background-position: center;
   padding:10% 10%;
@@ -187,4 +187,62 @@
 .section{
   width: 100%;
   padding:5rem;
+}
+@media (max-width:950px){
+  .Herosection{
+    padding-top: 20%;
+  }
+  .GetInTouch{
+    flex-direction: column;
+  }
+  .GetInTouch .image{
+    width: 100%;
+    z-index: -1;
+    padding: 10px;
+    object-fit: cover;
+
+  }
+  .GetInTouch .image img{
+    width: 100%;
+  }
+  .GetInTouch .info{
+    position: static;
+    padding: 20px;
+    width: 100%;
+
+  }
+  .card-container{
+    padding: 12px;
+  }
+  .section{
+    padding: 10px;
+  }
+
+}
+@media (max-width:733px) {
+   .header-links{
+    display: none;
+   }
+   .inner-container{
+    width: 100%;
+   }
+   .footer ul{
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .footer ul li{
+    margin: 8px;
+   }
+   .footer{
+    justify-content: center;
+   }
+   .footer{
+    text-align: center;
+   }
+   .GetInTouch .image img{
+    width: 90%;
+   }
+   .header-logo-name{
+    font-size: 25px;
+   }
 }
