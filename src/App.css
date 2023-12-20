@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 .App{
   width: 100%;
@@ -57,7 +59,7 @@
   padding:10% 10%;
 }
 .herosection-h1{
-  font-size: 44px;
+  font-size: 48px;
   font-weight: 900;
 }
 .Herosection p{
